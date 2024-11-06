@@ -1,0 +1,5 @@
+echo "Building File"
+config-pin p9.12 gpio
+config-pin p8.16 gpio_pu
+g++ -Wall myGpio.cpp myGpioApp.cpp -o myGpioApp
+echo "Finished Building"

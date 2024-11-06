@@ -1,0 +1,3 @@
+echo "Building File"
+g++ pressLed.cpp -o pressLED
+echo "Finished Building"
